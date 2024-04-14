@@ -1,6 +1,6 @@
-def primes(n):
+def primes(n: int):
     sieve = [True] * n
-
+    x = 0
     res = []
 
     for i in range(2, n):
