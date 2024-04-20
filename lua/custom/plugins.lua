@@ -1,5 +1,6 @@
 local plugins = {
   {
+    'ojroques/vim-oscyank',
   },
   {
     "github/copilot.vim",
