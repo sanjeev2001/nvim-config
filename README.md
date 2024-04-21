@@ -5,7 +5,7 @@
 ```
 mkdir ~/.config/nvim
 git clone -b v2.0 https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
-git clone https://github.com/sanjeev2001/nvim-config.github
+git clone https://github.com/sanjeev2001/nvim-config.git
 cp -r nvim-config/lua/custom/ ~/.config/nvim/lua/
 ```
 #### Plugins
