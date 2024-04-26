@@ -1,5 +1,11 @@
 local plugins = {
   {
+    "lewis6991/gitsigns.nvim",
+    config = function()
+      require "custom.configs.gitsign"
+    end,
+  },
+  {
     "iamcco/markdown-preview.nvim",
     cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
     ft = { "markdown" },

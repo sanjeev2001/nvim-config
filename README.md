@@ -31,3 +31,4 @@ rm -rf nvim-config
 - christoomey/vim-tmux-navigator 
 - github/copilot.vim
 - iamcco/markdown-preview.nvim
+
